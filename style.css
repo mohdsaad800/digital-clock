@@ -1,0 +1,102 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/* </style> */
+body{
+    /* text-align: center; */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: rgb(7, 43, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    font-style: italic;
+}
+.main{
+    background-color: rgb(56, 54, 52);
+    width: 80vw;
+    height: 40vw;
+}
+.fulldatetime{
+    border: 0.4vw solid white;
+    background-color: black;
+    width: 62vw;
+    border-radius: 0.5vw;
+    margin:5vw auto 0vw auto;
+    padding: 2vw;
+}
+.date_contaner{
+    max-width: 60vw;
+    margin: auto;
+    font-size: 1.5vw;
+    font-weight: bolder;
+   font-family: "Orbitron", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+    color: wheat;
+    margin-bottom: 1vw;
+
+
+
+}
+.datename{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* border: 2px solid; */
+
+}
+.digit{
+    font-size: 5vw;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+    background-color: black;
+    color:rgb(107, 4, 4);
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+.digit div{
+    letter-spacing: 2vw;
+    /* margin-left: 2vw !important; */
+}
+.digit div span{
+    /* letter-spacing: 2vw; */
+    margin-left: 2vw !important;
+}
+.tim{
+    background-color: rgb(165, 113, 113);
+}
+.weak_contaner{
+    display: flex;
+    justify-content: space-between;
+}
+.day{
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color: white;
+    border-top-right-radius:2vw ;
+    border-bottom-right-radius:2vw ;
+    padding: 0vw 1vw 0vw 0vw;
+    margin:1vw 0vw;
+}
+
+.col{
+    /* display: inline-block; */
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: rgb(133, 103, 103);
+    border-radius: 12vw;
+    margin: 0vw 0vw 0vw -1vw;
+}
+@media (max-width : 700px) {
+    body{
+        height: fit-content;
+    }
+}
